@@ -37,7 +37,7 @@ cp .env.example .env
 ```sh
 composer install
 php artisan key:generate
-php artisan migrate --seed
+php artisan migrate:fresh --seed
 php artisan serve --port 8000
 ```
 
@@ -54,7 +54,7 @@ cp .env.example .env
 - Sesuaikan dengan endpoint pada laravel Backend API, yang defaultnya di port 8000. Berikut isi dari .env
 
 ```sh
-VITE_API_ENDPOINT=http://127.0.0.1:8000
+VITE_API_ENDPOINT=http://127.0.0.1:8000/api
 ```
 
 - Jalankan perintah `npm run dev` untuk menjalankan project react js
