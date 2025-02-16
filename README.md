@@ -21,7 +21,7 @@ Sebelum menjalankan project ini, pastikan perangkat Anda sudah terinstal dengan:
 ### 1. Clone Repository
 
 ```sh
-https://github.com/HaikalRFadhilahh/bratamedia-fullstack-test.git bratamedia-test
+git clone https://github.com/HaikalRFadhilahh/bratamedia-fullstack-test.git bratamedia-test
 cd bratamedia-test
 ```
 
